@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChat", "Assembly-CSharp.csproj", "{68070E19-2B23-0CDE-1296-70B0715EB6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChat", "Assembly-CSharp-Editor.csproj", "{8937D5C7-A7F5-32AC-E078-160AC0FB4210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68070E19-2B23-0CDE-1296-70B0715EB6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68070E19-2B23-0CDE-1296-70B0715EB6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68070E19-2B23-0CDE-1296-70B0715EB6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68070E19-2B23-0CDE-1296-70B0715EB6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8937D5C7-A7F5-32AC-E078-160AC0FB4210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8937D5C7-A7F5-32AC-E078-160AC0FB4210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8937D5C7-A7F5-32AC-E078-160AC0FB4210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8937D5C7-A7F5-32AC-E078-160AC0FB4210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
