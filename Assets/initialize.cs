@@ -57,15 +57,19 @@ data["position"]= first.text;
 private void OnUserConnected(SocketIOEvent evt ){
 
 Debug.Log("server from message is "+evt.data);
+slide();
+first1.text = evt.data["name"].ToString();
+inputfieldname.Select();
+inputfieldname.text="";
 
 }
 private void OnUserPlay(SocketIOEvent evt ){
 
 Debug.Log("the message from server is  "+evt.data);
 
-//first.text = evt.data["name"].ToString();
 
-
+slide();
+first1.text = evt.data["name"].ToString();
 inputfieldname.Select();
 inputfieldname.text="";
 
@@ -102,7 +106,7 @@ obez[5] = first5;
 obez[6] = first6;
 obez[7] = first7;
 
-for (int i = 7; i > 0; i--)
+for (int i = 7; i > 1; i--)
        {
 
 obez[i].text = obez[i-1].text;
